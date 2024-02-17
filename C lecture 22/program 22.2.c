@@ -15,6 +15,7 @@ int length(){
 
 	printf("\n => Length of : %d \n", length);
 }
+
 void main(){
 	
 	length();
