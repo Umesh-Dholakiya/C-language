@@ -13,6 +13,7 @@ void calc(){
   	 printf("\n Sub of %d - %d = %d" ,a ,b ,a - b);
      printf("\n Multiply of %d * %d = %d" ,a ,b ,a * b);
   	 printf("\n Division of %d / %d = %d" ,a ,b ,a / b);
+  	 printf("\n Modules of %d %% %d = %d" ,a ,b ,a % b);
 }
 
 void main(){
