@@ -16,5 +16,6 @@ void main(){
 	
 	printf("Enter the number: ");
 	scanf("%d",&a);
+	
 	decimal(a);
 }

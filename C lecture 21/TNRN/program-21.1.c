@@ -1,14 +1,14 @@
 #include<stdio.h>
 
-void evenodd(int num){
+void EvenOdd(int num){
 	
 
 	if(num % 2 == 0){
-		printf("Your given number is even");
+		printf("Your given number is Even");
 		
 	}
 	else{
-		printf("Your given number is odd");
+		printf("Your given number is Odd");
 	}
 }
 
@@ -16,8 +16,8 @@ void main(){
 	
 	int a;
 	
-	printf("Enter the number: ");
+	printf("Enter the Number: ");
 	scanf("%d",&a);
 	
-	evenodd(a);
+	EvenOdd(a);
 }

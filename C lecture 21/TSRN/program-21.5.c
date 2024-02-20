@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-void pattern(){
+int pattern(){
+	
 	printf("\n* * * ");
 	printf("\n* * *		* * *");
 	printf("\n* * *		  * * *");
