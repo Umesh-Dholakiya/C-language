@@ -1,20 +1,21 @@
 #include<stdio.h>
 
 void sum(int x,int y){
-	printf("Sum of A and B is %d\n" ,x + y);
+	printf("\nSum of x and y is %d\n" ,x + y);
 }
 void sub(int x,int y){
-	printf("Substraction of A and B is %d\n" ,x - y);
+	printf("\nSubstraction of x and y is %d\n" ,x - y);
 }
 void multiply(int x ,int y){
-	printf("Multiply of A and B is %d\n" ,x * y);
+	printf("\nMultiply of x and y is %d\n" ,x * y);
 }
 void division(int x ,int y){
-	printf("division of A and B is %d\n" ,x / y);
+	printf("\ndivision of x and y is %d\n" ,x / y);
 }
 void Modulo(int x ,int y){
-	printf("Modulo of A and B is %d\n" ,x % y);
+	printf("\nModulo of x and y is %d\n" ,x % y);
 }
+
 void main(){
 	
 	int a, b, choice;
@@ -26,12 +27,12 @@ void main(){
 	scanf("%d", &b);
 	
 	do{
-		printf("Press 1 for + \n");
+		printf("\nPress 1 for + \n");
 		printf("Press 2 for - \n");
 		printf("Press 3 for * \n");
 		printf("Press 4 for / \n");
 		printf("Press 5 for %% \n");
-		printf("Press 0 for Exit...\n");
+		printf("Press 0 for Exit...\n\n");
 
 		printf("Enter Your choice : ");
 		scanf("%d", &choice);
@@ -63,6 +64,6 @@ void main(){
 			printf("Your input is wrong..\n\n");
 			break;
 		}
-	}while(choice !=0);
+	}while(choice != 0);
 }
 
