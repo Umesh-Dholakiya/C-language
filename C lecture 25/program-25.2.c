@@ -20,7 +20,7 @@ void size(){
 	}
 	
 	for(i = 0; i < n; i++){
-		printf("\n arr[%d] = %d \n", i, arr[i]);
+		printf(" %d \t", arr[i]);
 	}
 }
 void main(){
